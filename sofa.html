@@ -1,0 +1,134 @@
+ <!-- // Name - Angadjot Singh Modi
+// Student Number - 301060981
+//  file description  - file displaying list of sofas 
+// File Version - 1.0-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="NAME" content="Angadjot Singh Modi">
+  <meta name="STUDENT NUMBER" content="301060981">
+  <meta name="FILE DESCRIPTION" content="DETAILS SCREEN:sofa.html">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    @media only screen and (max-width:620px) {
+
+      /* For mobile phones: */
+      .menu,
+      .main,
+      .right {
+        width: 100%;
+      }
+    }
+
+    .column {
+      float: left;
+      width: 31%;
+      padding: 10px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .btn-group .button {
+      background-color: #4CAF50;
+      /* Green */
+      border: 1px solid green;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      /* float: left; */
+    }
+
+    @media only screen and (min-width: 800px) and (max-width:1199px) {}
+
+    .column {
+      float: left;
+      width: 45%;
+      padding: 10px;
+    }
+
+    .column {
+      float: left;
+      width: 31%;
+      padding: 10px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    @media only screen and (max-width:799px) {
+      img#abc {
+        display: none;
+      }
+
+      h1#pizzahut {
+        display: show;
+      }
+
+
+
+      .column {
+        float: left;
+        width: 70%;
+        padding: 5px;
+      }
+
+    }
+
+    @media only screen and (min-width: 800px) and (max-width:1199px) {
+
+      .column {
+        float: left;
+        width: 45%;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-color:beige;">
+  <h1 style="text-align:center;padding:15px;"> Sofas </h1>
+  <p style="color:green;"> <b>Sofas are available in different sizes such as Bridgewater and Cabriole</b>
+  </p>
+
+  <div class="row">
+    <div class="column">
+      <h2><a href="Order.html">BridgeWater</a></h2>
+      <img src="sofa1.jpg" width="300" height="300">
+    </div>
+
+    <div class="column">
+
+      <h2><a href="Order.html">Cabriole</a></h2>
+      <img src="CabrioleSofa.jpg" width="300" height="300">
+    </div>
+
+  </div>
+
+
+
+  <div class="btn-group">
+    <a href="Home.html" </a> <button class="button">Back</button>
+
+  </div>
+
+
+</body>
+
+</html>

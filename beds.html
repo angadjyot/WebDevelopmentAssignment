@@ -1,0 +1,136 @@
+ <!-- // Name - Angadjot Singh Modi
+// Student Number - 301060981
+//  file description  - file displaying list of sofas 
+// File Version - 1.0-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="NAME" content="Angadjot Singh Modi">
+  <meta name="STUDENT NUMBER" content="301060981">
+  <meta name="FILE DESCRIPTION" content="DETAILS SCREEN:beds.html">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    @media only screen and (max-width:620px) {
+
+      /* For mobile phones: */
+      .menu,
+      .main,
+      .right {
+        width: 100%;
+      }
+    }
+
+    .button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .btn-group .button {
+      background-color: #4CAF50;
+      /* Green */
+      border: 1px solid green;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      float: left;
+    }
+
+    .column {
+      float: left;
+      width: 31%;
+      padding: 10px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    @media only screen and (max-width:799px) {
+      img#abc {
+        display: none;
+      }
+
+      h1#pizzahut {
+        display: show;
+      }
+
+
+
+      .column {
+        float: left;
+        width: 70%;
+        padding: 5px;
+      }
+
+    }
+
+    @media only screen and (min-width: 800px) and (max-width:1199px) {
+
+      .column {
+        float: left;
+        width: 45%;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body style="background-color:beige;">
+  <h1 style="text-align:center;padding:15px;"> BEDS </h1>
+  <p style="color:green;"> <b>Beds are available in different sizes such as FULL, QUEEN SIZE, KING SIZE and also for
+      KIDS</b>
+  </p>
+
+  <div class="row">
+    <div class="column">
+      <h2><a href="Order.html">Full Size</a></h2>
+      <img src="bed3.jpg" width="300" height="300">
+    </div>
+
+    <div class="column">
+      <h2><a href="Order.html">Queen-Size</a></h2>
+      <img src="bed1.jpeg" width="300" height="300">
+    </div>
+
+    <div class="column">
+      <h2><a href="Order.html">King-Size</a></h2>
+      <img src="bed2.jpg" width="300" height="300">
+    </div>
+
+    <div class="column">
+      <h2><a href="Order.html">Kids-Size</a></h2>
+      <img src="kids.jpeg" width="300" height="300">
+    </div>
+
+  </div>
+
+
+
+
+  <div class="btn-group">
+    <a href="Home.html" </a> <button class="button">Back</button>
+  </div>
+
+
+</body>
+
+</html>
